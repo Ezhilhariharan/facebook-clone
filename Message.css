@@ -1,0 +1,52 @@
+﻿.message {
+   display:flex;
+   margin-top:30px;
+   flex-direction:column;
+   background-color:white;
+   box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+   border-radius: 15px;
+    cursor: pointer;
+    width:100%;
+}
+.message-top {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+        padding: 15px;
+}
+.message-top > form {
+    display: flex;
+    flex: 1;
+}
+    .message-top > form > input {
+        outline-width: 0;
+        border: none;
+        padding: 5px 20px;
+        margin: 0 10px;
+        background-color: #eff2f5;
+        border-radius: 999px;
+    }
+    .message-top > form > button{
+        display :none;
+    }
+    .message-input{
+        flex:1;
+    }
+.message-bottom{
+    display:flex;
+    justify-content:space-evenly;
+}
+.message-option {
+    padding: 8px;
+    display: flex;
+    align-items :center;
+    color: grey;
+    margin:15px;
+}
+.message-option h4{
+    font-size:medium;
+    margin-left:10px;
+}
+.message-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
